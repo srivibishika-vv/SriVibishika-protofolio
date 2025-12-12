@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MoodMate — Sri Vibishika V</title>
+  <link href="../../css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="../../index.html"><h1>Sri Vibishika V</h1></a>
+      <nav class="navlinks">
+        <a href="../../index.html">Home</a>
+        <a href="../../projects.html">Projects</a>
+        <a href="../../internships.html">Internships</a>
+        <a href="../../education.html">Education</a>
+        <a href="../../certifications.html">Certifications</a>
+        <a href="../../skills.html">Skills</a>
+        <a href="../../contact.html">Contact</a>
+        <a href="../../resume.pdf" download>Resume</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>MoodMate — Mental Health Web App</h2>
+
+      <div class="grid">
+        <article class="card">
+          <img src="../../assets/images/moodmate-thumb.jpg" alt="MoodMate">
+          <div class="card-body">
+            <h3>About</h3>
+            <p>Colorful, user-friendly platform for mood journaling, emotion tracking, and an anonymous support wall. Built to encourage daily reflection and support-seeking.</p>
+
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript (portfolio version) — Live demo available.</p>
+
+            <div style="margin-top:auto; display:flex; gap:10px;">
+              <a class="btn btn-primary" href="https://moodmate-hazel.vercel.app/" target="_blank" rel="noopener noreferrer">Open Live</a>
+              <a class="btn btn-ghost" href="#" data-open-desc="mood-desc">Details</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div id="mood-desc" class="modal" aria-hidden="true">
+        <div class="modal-card">
+          <button class="modal-close">✕</button>
+          <h3>MoodMate — Features</h3>
+          <ul>
+            <li>Daily mood entries and mood history</li>
+            <li>Anonymous support wall with likes</li>
+            <li>Export mood history as CSV</li>
+            <li>Colorful, accessible UI and calendar view</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img src="" alt=""></div>
+  <script src="../../js/main.js"></script>
+</body>
+</html>

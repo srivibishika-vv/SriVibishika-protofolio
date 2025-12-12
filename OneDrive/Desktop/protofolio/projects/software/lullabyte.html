@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lullabyte — Sri Vibishika V</title>
+  <link href="../../css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="../../index.html"><h1>Sri Vibishika V</h1></a>
+      <nav class="navlinks">
+        <a href="../../index.html">Home</a>
+        <a href="../../projects.html">Projects</a>
+        <a href="../../internships.html">Internships</a>
+        <a href="../../education.html">Education</a>
+        <a href="../../certifications.html">Certifications</a>
+        <a href="../../skills.html">Skills</a>
+        <a href="../../contact.html">Contact</a>
+        <a href="../../resume.pdf" download>Resume</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Lullabyte — AI Infant Vocalization Classifier</h2>
+
+      <div class="grid">
+        <article class="card">
+          <img src="../../assets/images/lullabyte-thumb.jpg" alt="Lullabyte">
+          <div class="card-body">
+            <h3>Project Summary</h3>
+            <p>Real-time infant vocalization classification system to detect baby needs using audio analysis and a lightweight model served by Flask.</p>
+
+            <p><strong>Components:</strong> Mobile frontend (React Native / Flutter prototype), Flask API, ML model (Keras/TensorFlow, MFCC preprocessing)</p>
+            <p><strong>Outcome:</strong> Near real-time inference with high precision for key infant sounds.</p>
+
+            <div style="margin-top:auto; display:flex; gap:10px;">
+              <a class="btn btn-primary" href="#" data-open-desc="lulla-desc">Read full description</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div id="lulla-desc" class="modal" aria-hidden="true">
+        <div class="modal-card">
+          <button class="modal-close">✕</button>
+          <h3>Lullabyte — Details</h3>
+          <p>Audio is preprocessed into MFCC features and passed to a lightweight CNN. The model is served by a Flask endpoint that returns predictions in JSON. The mobile client streams short audio clips to the server and receives prompt classifications.</p>
+          <h4>Tech</h4>
+          <ul>
+            <li>Python, librosa (audio), TensorFlow/Keras</li>
+            <li>Flask API for model inference</li>
+            <li>Mobile prototype for demo and UX</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img src="" alt=""></div>
+  <script src="../../js/main.js"></script>
+</body>
+</html>

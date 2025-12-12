@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fem App — Sri Vibishika V</title>
+  <link href="../../css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- header (no photo) -->
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="../../index.html"><h1>Sri Vibishika V</h1></a>
+      <nav class="navlinks">
+        <a href="../../index.html">Home</a>
+        <a href="../../projects.html">Projects</a>
+        <a href="../../internships.html">Internships</a>
+        <a href="../../education.html">Education</a>
+        <a href="../../certifications.html">Certifications</a>
+        <a href="../../skills.html">Skills</a>
+        <a href="../../contact.html">Contact</a>
+        <a href="../../resume.pdf" download>Resume</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Fem App (FemFit)</h2>
+
+      <div class="grid">
+        <article class="card">
+          <img src="../../assets/images/femapp-thumb.jpg" alt="Fem App Screenshot">
+          <div class="card-body">
+            <h3>Overview</h3>
+            <p>Frontend web application focused on UI/UX enhancements and accessibility for FemFit.</p>
+
+            <p><strong>Role:</strong> Frontend Developer — UI/UX, responsive layouts, accessibility fixes.</p>
+            <p><strong>Tech stack:</strong> React (Vite), CSS, JavaScript, Google OAuth (auth integration)</p>
+
+            <div style="margin-top:auto; display:flex; gap:10px;">
+              <a class="btn btn-primary" href="https://femfit-react-l87q.vercel.app/" target="_blank" rel="noopener noreferrer">Open Live</a>
+              <a class="btn btn-ghost" href="#" data-open-desc="fem-desc">Read more</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div id="fem-desc" class="modal" aria-hidden="true">
+        <div class="modal-card">
+          <button class="modal-close">✕</button>
+          <h3>Fem App — Details</h3>
+          <p>Worked on component structure, forms, responsive breakpoints, and user flows. Implemented improved accessibility (aria labels, keyboard navigation) and polished visuals. Connected frontend to backend APIs for authentication and user data.</p>
+          <h4>Highlights</h4>
+          <ul>
+            <li>Responsive UI with clean spacing and micro-interactions</li>
+            <li>Accessible forms and keyboard navigation</li>
+            <li>Performance optimization and lazy-loading images</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img src="" alt=""></div>
+  <script src="../../js/main.js"></script>
+</body>
+</html>

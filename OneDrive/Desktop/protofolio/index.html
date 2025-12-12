@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sri Vibishika V — About</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- animated blob background layer -->
+  <div class="bg-anim" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+  </div>
+
+  <!-- Header (menu has NO photo) -->
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <h1>Sri Vibishika V</h1>
+      </a>
+
+      <nav class="navlinks" id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="internships.html">Internships</a>
+        <a href="education.html">Education</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.pdf" download>Resume</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
+    </div>
+
+    <!-- mobile menu -->
+    <nav id="mobileMenu" style="display:none; padding:10px 16px; background:linear-gradient(180deg, rgba(0,0,0,0.26), rgba(0,0,0,0.18)); border-top:1px solid rgba(255,255,255,0.03);">
+      <a href="index.html" style="display:block; padding:10px 6px;">Home</a>
+      <a href="projects.html" style="display:block; padding:10px 6px;">Projects</a>
+      <a href="internships.html" style="display:block; padding:10px 6px;">Internships</a>
+      <a href="education.html" style="display:block; padding:10px 6px;">Education</a>
+      <a href="certifications.html" style="display:block; padding:10px 6px;">Certifications</a>
+      <a href="skills.html" style="display:block; padding:10px 6px;">Skills</a>
+      <a href="contact.html" style="display:block; padding:10px 6px;">Contact</a>
+      <a href="resume.pdf" download style="display:block; padding:10px 6px;">Resume</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-unique" aria-labelledby="hero-title">
+      <!-- avatar (ONLY on Home) -->
+      <div class="hero-avatar">
+        <img class="avatar" src="assets/images/profile.jpg" alt="Sri Vibishika V">
+      </div>
+
+      <div class="hero-headline">
+        <h2 id="hero-title">Hi — I'm Sri Vibishika V</h2>
+
+        <div class="type-line" aria-hidden="true">
+          <div class="type-prefix">I am a</div>
+          <div class="type-dynamic" aria-live="polite"></div>
+          <div class="cursor" aria-hidden="true"></div>
+        </div>
+
+        <p class="lead">B.E. Biomedical Engineering student at KPR Institute. I build practical hardware–software systems and polished web experiences for healthcare and accessibility.</p>
+
+        <div class="about-card" role="region" aria-label="About me">
+          <p>
+            My projects combine embedded firmware, sensors and responsive front-end UIs. I enjoy prototyping (3D modeling & printing), building wearable proof-of-concepts, and shipping clean web frontends.
+          </p>
+
+          <div class="skills-row" aria-label="Key skills">
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">HTML • CSS • JS</span>
+            <span class="skill-pill">Arduino • MPU6050</span>
+            <span class="skill-pill">Python • Flask</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Sri Vibishika V · srivibishika22@gmail.com</div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img src="" alt=""></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Internships — Sri Vibishika V</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- header (no photo) -->
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="index.html"><h1>Sri Vibishika V</h1></a>
+
+      <nav class="navlinks" id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="internships.html">Internships</a>
+        <a href="education.html">Education</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.pdf" download>Resume</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
+    </div>
+
+    <nav id="mobileMenu" style="display:none; padding:10px 16px; background:linear-gradient(180deg, rgba(0,0,0,0.26), rgba(0,0,0,0.18)); border-top:1px solid rgba(255,255,255,0.03);">
+      <a href="index.html" style="display:block; padding:10px 6px;">Home</a>
+      <a href="projects.html" style="display:block; padding:10px 6px;">Projects</a>
+      <a href="internships.html" style="display:block; padding:10px 6px;">Internships</a>
+      <a href="education.html" style="display:block; padding:10px 6px;">Education</a>
+      <a href="certifications.html" style="display:block; padding:10px 6px;">Certifications</a>
+      <a href="skills.html" style="display:block; padding:10px 6px;">Skills</a>
+      <a href="contact.html" style="display:block; padding:10px 6px;">Contact</a>
+      <a href="resume.pdf" download style="display:block; padding:10px 6px;">Resume</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Internships</h2>
+      <p class="lead" style="color:var(--muted); margin-bottom:0.8rem;">Medsby · Masonic — hands-on product & clinical exposure</p>
+
+      <div class="grid" style="align-items:start;">
+        <!-- Medsby -->
+        <article class="card">
+          <img src="assets/images/medsby-thumb.jpg" alt="Medsby internship">
+          <div class="card-body">
+            <h3>Medsby — Product Development Intern</h3>
+            <p>Worked on 3D modeling, slicing, and embedded prototyping for medical devices.</p>
+
+            <div style="margin-top:auto; display:flex; gap:10px; align-items:center;">
+              <button class="btn btn-primary" data-full="assets/images/medsby.jpg">View Image</button>
+              <a class="btn btn-ghost" href="#" data-open-desc="medsby-desc">Learnings</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Masonic -->
+        <article class="card">
+          <img src="assets/images/masonic-thumb.jpg" alt="Masonic internship">
+          <div class="card-body">
+            <h3>Masonic — Clinical/Service Intern</h3>
+            <p>Shadowed device servicing, QA checks, and documentation for hospital equipment.</p>
+
+            <div style="margin-top:auto; display:flex; gap:10px; align-items:center;">
+              <button class="btn btn-primary" data-full="assets/images/masonic.jpg">View Image</button>
+              <a class="btn btn-ghost" href="#" data-open-desc="masonic-desc">Learnings</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- detailed learnings (modals) -->
+      <div id="medsby-desc" class="modal" aria-hidden="true">
+        <div class="modal-card">
+          <button class="modal-close">✕</button>
+          <h3>Medsby — What I learned</h3>
+          <ul>
+            <li>3D modeling & part optimization using SketchUp and Meshmixer.</li>
+            <li>3D printing workflow, slicing in Ultimaker Cura and print post-processing.</li>
+            <li>Basic embedded systems prototyping with Arduino and sensor testing.</li>
+            <li>Product documentation and version control on small projects.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="masonic-desc" class="modal" aria-hidden="true">
+        <div class="modal-card">
+          <button class="modal-close">✕</button>
+          <h3>Masonic — What I learned</h3>
+          <ul>
+            <li>Clinical device servicing procedures and preventive maintenance.</li>
+            <li>Quality assurance / calibration checks for diagnostic equipment.</li>
+            <li>Collaborating with clinicians to translate feedback into device improvements.</li>
+            <li>Communication skills for technical handover and documentation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Sri Vibishika V</div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img src="" alt=""></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

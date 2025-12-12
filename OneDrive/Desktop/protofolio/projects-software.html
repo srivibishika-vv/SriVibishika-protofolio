@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Software Projects</title><link href="css/styles.css" rel="stylesheet"></head>
+<body>
+  <!-- header (no photo) -->
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="index.html"><h1>Sri Vibishika V</h1></a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="internships.html">Internships</a>
+        <a href="education.html">Education</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.pdf" download>Resume</a>
+      </nav>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">☰</button>
+    </div>
+    <nav id="mobileMenu" style="display:none; padding:10px 16px; background:linear-gradient(180deg, rgba(0,0,0,0.26), rgba(0,0,0,0.18)); border-top:1px solid rgba(255,255,255,0.03);">
+      <a href="index.html" style="display:block; padding:10px 6px;">Home</a>
+      <a href="projects.html" style="display:block; padding:10px 6px;">Projects</a>
+      <a href="internships.html" style="display:block; padding:10px 6px;">Internships</a>
+      <a href="education.html" style="display:block; padding:10px 6px;">Education</a>
+      <a href="certifications.html" style="display:block; padding:10px 6px;">Certifications</a>
+      <a href="skills.html" style="display:block; padding:10px 6px;">Skills</a>
+      <a href="contact.html" style="display:block; padding:10px 6px;">Contact</a>
+      <a href="resume.pdf" download style="display:block; padding:10px 6px;">Resume</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Software Projects</h2>
+      <p class="lead" style="color:var(--muted);">Click a project to open the live site or view a description.</p>
+
+      <div class="grid">
+        <article class="card">
+          <img src="assets/images/femapp-thumb.jpg" alt="Fem App">
+          <div class="card-body">
+            <h3>Fem App (FemFit)</h3>
+            <p>Frontend UI/UX improvements.</p>
+            <div style="margin-top:auto;">
+              <a class="btn btn-primary" href="https://femfit-react-l87q.vercel.app/" target="_blank" rel="noopener noreferrer">Open Live</a>
+              <a class="btn btn-ghost" href="projects/software/fem-app.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/moodmate-thumb.jpg" alt="MoodMate">
+          <div class="card-body">
+            <h3>MoodMate</h3>
+            <p>Mood journaling & anonymous support.</p>
+            <div style="margin-top:auto;">
+              <a class="btn btn-primary" href="https://moodmate-hazel.vercel.app/" target="_blank" rel="noopener noreferrer">Open Live</a>
+              <a class="btn btn-ghost" href="projects/software/moodmate.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Lullabyte, Todo, Q Card -->
+        <article class="card">
+          <img src="assets/images/lullabyte-thumb.jpg" alt="Lullabyte">
+          <div class="card-body">
+            <h3>Lullabyte</h3>
+            <p>Infant vocalization classifier (mobile + Flask).</p>
+            <div style="margin-top:auto;">
+              <a class="btn btn-primary" href="projects/software/lullabyte.html">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/todo-thumb.jpg" alt="Todo">
+          <div class="card-body">
+            <h3>Todo Task Manager</h3>
+            <p>Real-time collaborative app (hackathon).</p>
+            <div style="margin-top:auto;">
+              <a class="btn btn-primary" href="projects/software/todo-task-manager.html">Open</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/qcard-thumb.jpg" alt="Q Card">
+          <div class="card-body">
+            <h3>Q Card — Emergency</h3>
+            <p>Quick medical history access system.</p>
+            <div style="margin-top:auto;">
+              <a class="btn btn-primary" href="projects/software/qcard.html">Open</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true"><img src="" alt=""></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
